@@ -1,0 +1,2 @@
+prefect
+prefect-kubernetes==0.3.11

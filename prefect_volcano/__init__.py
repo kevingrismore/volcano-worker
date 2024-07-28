@@ -1,0 +1,1 @@
+from prefect_volcano.worker import VolcanoWorker
