@@ -26,7 +26,8 @@ worker:
     accountId: <your-account-id>
     workspaceId: <your-workspace-id>
   config:
-    workPool: volcano # or any valid work pool name not currently in use
+    workPool: volcano-pool # or any valid work pool name not currently in use
+    type: volcano
   image:
     repository: <your-registry/your-image>
     prefectTag: <your-image-tag>
