@@ -13,8 +13,8 @@ helm install volcano volcano-sh/volcano -n volcano-system --create-namespace
 ```
 2. Build and push an image to your registry using the the included Dockerfile.
 ```bash
-docker build . -t <your-image/your-registry:yourtag>
-docker push <your-image/your-registry:yourtag>
+docker build . -t <your-registry/your-image:your-tag>
+docker push <your-registry/your-image:your-tag>
 ```
 3. Use the [prefect-worker](https://github.com/PrefectHQ/prefect-helm/tree/main/charts/prefect-worker) Helm chart to create the necessary resources in your Kubernetes cluster. Override defaults in the chart using a `values.yaml`.
 
