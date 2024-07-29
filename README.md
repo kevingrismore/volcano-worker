@@ -38,13 +38,13 @@ role:
       resources:
         - jobs
       verbs:
-        - "get"
-        - "list"
-        - "watch"
-        - "create"
-        - "update"
-        - "patch"
-        - "delete"
+        - get
+        - list
+        - watch
+        - create
+        - update
+        - patch
+        - delete
 ```
 
 Once your `VolcanoWorker` is running, a new `Volcano` type work pool should appear in your workspace, ready to run deployments!
